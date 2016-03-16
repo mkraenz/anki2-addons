@@ -14,6 +14,7 @@ from anki.hooks import addHook
 SHORTCUT = "Alt+D"
     
 def clear_editor(editor):
+    u'''Remove text from fields in editor. '''
     note = editor.note
     # enumerate all fieldNames of the current note
     for c, field_name in enumerate(mw.col.models.fieldNames(note.model())):
