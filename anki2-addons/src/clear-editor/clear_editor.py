@@ -1,10 +1,8 @@
-'''
-Created on 16.03.2016
+# -*- coding: utf-8 -*-
+# Copyright 2016 Mirco Kraenz <contact@kraenz.eu>
+# License: GNU GPL, version 3 or later; http://www.gnu.org/copyleft/gpl.html
 
-@author: Mirco Kraenz
-'''
-
-# Tested with Anki Version 2.0.33, Qt 4.8.4, PyQt 4.10
+# Tested on Anki Version 2.0.33, Qt 4.8.4, PyQt 4.10
 
 # import the main window object (mw) from ankiqt
 from aqt import mw
