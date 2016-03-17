@@ -11,7 +11,7 @@ from anki.hooks import addHook
 
 SHORTCUT = "Alt+D"
     
-def clear_editor(editor):
+def clear_all_editor_fields(editor):
     u'''Remove text from fields in editor. '''
     note = editor.note
     # enumerate all fieldNames of the current note
@@ -22,7 +22,7 @@ def clear_editor(editor):
     
 def setup_buttons(editor):
     u"""Add the buttons to the editor."""
-    editor._addButton("clear_fields1", lambda edito=editor: clear_editor(edito), _(SHORTCUT),
+    editor._addButton("clear_fields1", lambda edito=editor: clear_all_editor_fields(edito), _(SHORTCUT),
                        text=u"C", tip="Clear field entries (" + SHORTCUT +")")
 
 # register callback function that gets executed after setupEditorButtons has run. 
