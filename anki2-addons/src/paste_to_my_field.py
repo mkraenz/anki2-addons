@@ -6,9 +6,4 @@
 
 import paste_to_my_field_by_miro.paste_to_my_field
 
-SHORTCUT = "Alt+V"
-# Adjust these settings at will. For example, specify some more FIELD_NAMES like 'Expression'
-# to paste to the 'Expression' field as well, or substitute 'Examples' by some field.
-FIELD_NAMES = ['Examples',
-               'Expression',
-               ]
+# For custom adjustments see paste_to_my_field_by_miro/settings.py

@@ -8,7 +8,7 @@ from aqt import mw
 from aqt.editor import Editor # the editor when you click "Add" in Anki
 from anki.hooks import addHook
 from . import pyperclip
-from paste_to_my_field import FIELD_NAMES, SHORTCUT
+from paste_to_my_field_by_miro.settings import FIELD_NAMES, SHORTCUT
 
 def paste_to_my_field(editor):
     u'''Paste clipboard text to field specified by constant FIELD_NAMES '''
